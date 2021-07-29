@@ -12,7 +12,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: ot6
 
   bootcamp:
-    image: demo-docker-ot6:4.0
+    image: alefh/demo-docker-ot6:2.0
     ports:
       - "9093:8080"
     environment:
